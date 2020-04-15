@@ -1,0 +1,7 @@
+env="dev"
+aws_region="sa-east-1"
+lambda_name="minimal_lambda_function"
+lambda_handler="lambda.handler"
+lambda_runtime="python3.6"
+lambda_filename="target/lambda.zip"
+tags={"Project": "test"}
